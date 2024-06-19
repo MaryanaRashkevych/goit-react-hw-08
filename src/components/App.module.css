@@ -1,0 +1,15 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title{
+  margin: 6px;
+  font-size: 24px;
+}
+.warningText{
+  color: darkred;
+}

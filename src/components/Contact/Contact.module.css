@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid rgb(117, 109, 109);
+  border-radius: 4px;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.text {
+  margin: 2px;
+  font-size: 14px;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn {
+  margin: 2px;
+  padding: 5px 10px;
+  background-color: darkred;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
